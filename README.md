@@ -57,7 +57,7 @@ Key Files
 - package.json & package-lock.json: Keeps track of all project dependencies and their specific versions.
 - .gitignore: Tells Git which files to ignore.
 
-## Getting Started
+## Installation & Setup
 - Before you begin, ensure you have the following installed on your local machine:
 1. Node.js (v14 or higher)
 2. MongoDB (Local or Atlas setup)
