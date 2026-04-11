@@ -1,15 +1,13 @@
 # Wanderlust
 
-Wanderlust is a robust, dynamic web application designed as a clone of Airbnb. It allows users to browse, create, and manage property listings. The application is built using a modern JavaScript stack, 
-leveraging server-side rendering to deliver a fast and responsive user experience.
+Wanderlust is a full-stack web application inspired by Airbnb that enables users to discover, create, and manage property listings. The platform allows users to share accommodations, explore listings posted by others, and interact through reviews.
+This project demonstrates a complete end-to-end web development workflow, including backend API design, database integration, authentication, and dynamic frontend rendering. It follows a structured MVC architecture and reflects real-world application design principles.
 
 ## Key Features
-Wanderlust supports the following core functionalities:
-1. Property Management (CRUD): Users can Create, Read, Update, and Delete property listings seamlessly.
-2. Cloud Media Storage: Fully integrated with Cloudinary for secure, optimized image uploads and storage.
-3. Middleware & Security: Custom middleware functions restrict unauthorized access and protect specific routes (e.g., only allowing owners to edit their listings).
-4. Data Validation: Server-side validation using predefined schemas ensures that only clean and correctly formatted data reaches the database.
-5. Dynamic Templating: Utilizes Embedded JavaScript (EJS)to generate dynamic, data-driven HTML pages injected with custom CSS styling.
+1. Listings Management
+   - Create, edit, and delete property listings
+View detailed information for each listing
+Store listing data in a structured database
 
 ## Tech Stack
 - Frontend: EJS (Embedded JavaScript templates), HTML5, CSS3
