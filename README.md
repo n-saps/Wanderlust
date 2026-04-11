@@ -37,12 +37,12 @@ Key Files
 - .gitignore: Tells Git which files to ignore.
 
 ## Getting Started
-Prerequisites
+- Prerequisites
 Before you begin, ensure you have the following installed on your local machine:
-- Node.js (v14 or higher)
-- MongoDB (Local or Atlas setup)
-- A Cloudinary account for image uploads.
-Installation
+1. Node.js (v14 or higher)
+2. MongoDB (Local or Atlas setup)
+3. A Cloudinary account for image uploads.
+- Installation
 1. Clone the repository:
 2. Install all dependencies defined in the package.json:
 3. Set up Environment Variables: Create a .env file in the root directory. You will need to add your specific cloud configurations and database credentials:
