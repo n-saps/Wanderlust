@@ -6,8 +6,31 @@ This project demonstrates a complete end-to-end web development workflow, includ
 ## Key Features
 1. Listings Management
    - Create, edit, and delete property listings
-View detailed information for each listing
-Store listing data in a structured database
+   - View detailed information for each listing
+   - Store listing data in a structured database
+
+2. Review System
+   - Add reviews and ratings for listings
+   - Delete reviews with proper authorization
+   - Associate reviews with specific users and listings
+   
+3. Authentication & Authorization
+   - User signup, login, and logout functionality
+   - Secure session-based authentication using Passport.js
+   - Role-based access control (only owners can modify their listings/reviews)
+   
+4. Dynamic UI
+   - Server-side rendering using EJS templates
+   - Reusable layouts and partials for consistent UI
+   - Responsive design using Bootstrap
+     
+5. Backend Functionality
+   - RESTful routing using Express.js
+   - Middleware for validation, authentication, and error handling
+   - Organized controller-based logic for scalability
+     
+6. Deployment
+   - Fully deployed project accessible on Render
 
 ## Tech Stack
 - Frontend: EJS (Embedded JavaScript templates), HTML5, CSS3
@@ -46,3 +69,21 @@ Key Files
 4. Initialize the Database: Run the initialization script to populate the database with sample data.
 5. Start the Application: Run the main server file:
 6. The application should now be running. Check your terminal for the port number (usually http://localhost:3000 or 8080).
+
+
+## Authentication Flow
+- Users must register or log in to perform actions like creating listings or posting reviews
+- Authentication is handled using Passport.js with session-based login
+- Authorization ensures:
+  - Only listing owners can edit or delete their listings
+  - Only review authors can delete their reviews
+- Middleware is used to protect routes and validate user permissions
+
+## Learning Outcomes
+- Developed a full-stack web application using Node.js, Express, and MongoDB
+- Gained hands-on experience with RESTful APIs and MVC architecture
+- Implemented secure authentication and authorization using Passport.js
+- Learned database schema design and relationships using Mongoose
+- Built dynamic, server-rendered UI using EJS templates
+- Understood middleware usage for validation, error handling, and security
+- Experienced real-world deployment and environment configuration
