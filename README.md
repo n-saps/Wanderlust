@@ -37,8 +37,7 @@ Key Files
 - .gitignore: Tells Git which files to ignore.
 
 ## Getting Started
-- Prerequisites
-Before you begin, ensure you have the following installed on your local machine:
+- Before you begin, ensure you have the following installed on your local machine:
 1. Node.js (v14 or higher)
 2. MongoDB (Local or Atlas setup)
 3. A Cloudinary account for image uploads.
