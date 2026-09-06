@@ -1,3 +1,7 @@
+const dns = require("dns");
+
+dns.setServers(["8.8.8.8", "1.1.1.1"]);
+
 if(process.env.NODE_ENV != "production"){
     require("dotenv").config();
 }
@@ -62,7 +66,7 @@ const sessionOptions = {
     store,
     secret: process.env.SECRET,
     resave: false,
-    saveUninitializad: true,
+    saveUninitialized: true,
     cookie:{
         expires: Date.now() + 100*60*60*24*7,
         maxAge: 100*60*60*24*7,
